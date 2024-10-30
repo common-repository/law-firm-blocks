@@ -1,0 +1,57 @@
+/**
+ * ----------------------------------------------------------------------------
+ * Editor CSS
+ * ----------------------------------------------------------------------------
+ */
+
+.wp-block-wplawfirm-three-cta-block ul,
+.wp-block-wplawfirm-three-cta-block li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.wp-block-wplawfirm-three-cta-block {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.wp-block-wplawfirm-three-cta-block > div {
+    display: flex;
+    align-items: stretch;
+}
+.wp-block-wplawfirm-three-cta-block .wp-law-firm-three-cta-image {
+    display: flex;
+    align-items: center;
+}
+.wp-block-wplawfirm-three-cta-block .wp-law-firm-three-cta-image.image-inactive {
+    background: #f4f4f4;
+}
+.wp-block-wplawfirm-three-cta-block .wp-law-firm-three-cta-image.image-active {
+    background-size: cover;
+    background-position: center;
+    max-width: 40%;
+}
+.wp-block-wplawfirm-three-cta-block .wp-law-firm-three-cta-image button {
+    margin: 0 auto;
+}
+.wp-block-wplawfirm-three-cta-block .wp-law-firm-three-cta-image button.image-button {
+    line-height: 0;
+    padding: 0px;
+}
+.wp-block-wplawfirm-three-cta-block .wp-law-firm-three-cta-image button.image-button img {
+    margin: 0;
+}
+.wp-block-wplawfirm-three-cta-block .wp-law-firm-three-cta-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.wp-block-wplawfirm-three-cta-block .wp-law-firm-three-cta-content h5.editor-rich-text__tinymce {
+    color: rgba(0, 0, 0, 0.4);
+}
+.wp-block-wplawfirm-three-cta-block .block-title {
+    margin-top: 0;
+    margin-bottom: 12px;
+    padding-left: 15px;
+}

@@ -1,0 +1,75 @@
+/**
+ * ----------------------------------------------------------------------------
+ * Editor CSS
+ * ----------------------------------------------------------------------------
+ */
+
+.wp-block-wplawfirm-introduction-block ul,
+.wp-block-wplawfirm-introduction-block li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.wp-block-wplawfirm-introduction-block {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.wp-block-wplawfirm-introduction-block > div {
+    display: flex;
+    align-items: stretch;
+}
+.wp-block-wplawfirm-introduction-block .wp-law-firm-introduction-image {
+    display: flex;
+    align-items: center;
+}
+.wp-block-wplawfirm-introduction-block .wp-law-firm-introduction-image.image-inactive {
+    background: #f4f4f4;
+    width: 40%;
+    border: 1px solid #dddddd;
+}
+.wp-block-wplawfirm-introduction-block .wp-law-firm-introduction-image.image-active {
+    background-size: cover;
+    background-position: center;
+    max-width: 40%;
+}
+.wp-block-wplawfirm-introduction-block .wp-law-firm-introduction-image button {
+    margin: 0 auto;
+}
+.wp-block-wplawfirm-introduction-block .wp-law-firm-introduction-image button.image-button {
+    line-height: 0;
+    padding: 0px;
+}
+.wp-block-wplawfirm-introduction-block .wp-law-firm-introduction-image button.image-button img {
+    margin: 0;
+}
+.wp-block-wplawfirm-introduction-block .wp-law-firm-introduction-content {
+    width: 60%;
+    align-self: center;
+    padding: 36px;
+    box-sizing: border-box;
+}
+.wp-block-wplawfirm-introduction-block .wp-law-firm-introduction-content h5.editor-rich-text__tinymce {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.wp-block-wplawfirm-introduction-block .introduction-link a {
+    text-decoration: none;
+    cursor: pointer;
+   /* transition: all 0.3s ease-in-out; */
+    color: #fff !important;
+    font-family: Poppins, sans-serif;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    background-color: #313b4e;
+    border-color: #313b4e;
+} 
+.wp-block-wplawfirm-introduction-block .introduction-link a:hover {
+    background-color: #c8ac48;
+}
+.wp-block-wplawfirm-introduction-block .block-title {
+    margin-top: 0;
+    margin-bottom: 12px;
+    padding-left: 15px;
+}

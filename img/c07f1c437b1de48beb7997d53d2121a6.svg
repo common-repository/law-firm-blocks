@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 287 297" width="287" height="297">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-823 -2194L777 -2194L777 1249L-823 1249Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { stroke: #707070 } 
+	</style>
+	<g id="Shirt-Starz Sub Page" clip-path="url(#cp1)">
+		<path id="c07f1c437b1de48beb7997d53d2121a6" class="shp0" d="M18 0L269 0C278.95 0 287 8.05 287 18L287 279C287 288.95 278.95 297 269 297L18 297C8.05 297 0 288.95 0 279L0 18C0 8.05 8.05 0 18 0Z" />
+	</g>
+</svg>

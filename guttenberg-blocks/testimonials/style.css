@@ -1,0 +1,16 @@
+/**
+ * ----------------------------------------------------------------------------
+ * Frontend CSS
+ * ----------------------------------------------------------------------------
+ * Tags: custom-colors
+ */
+
+    .owl-carousel .owl-item img {
+
+    width: auto ;
+    margin: auto ;
+    height: auto;
+}
+.text-center {
+    text-align: center!important;
+}
